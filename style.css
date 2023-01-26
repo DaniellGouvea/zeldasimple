@@ -57,8 +57,7 @@ article{
     margin: 0px 3vw 1px 3vw;
     padding: 41px;
     box-shadow: 0px 0px 10px rgb(87, 86, 86);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    
     /*
     min-width: 300px;
     max-width: 1000px;
@@ -101,10 +100,13 @@ article a:hover{
 footer{
     background-color: var(--cor2);
     text-align: center;
-    margin-right: 5em;
+    margin: -1px 3vw 0px 3vw;
+    min-width: 300px;
+    max-width: auto;
+    /*margin-right: 5em;
     margin-left: 5em;
     margin-top: -1px;
-    margin-bottom: 30px;
+    margin-bottom: 30px;*/
     padding: auto;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.322);
     border-bottom-left-radius: 10px;
