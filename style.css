@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'triforce';
+    src: url('legend_of_zelda_trifont/Legend-Of-Zelda-TriFont.ttf') format('TrueType');
+}
+@font-face {
+    font-family: 'zelda';
+    src: url(hylia-serif/Hylia-Serif-Beta-v0-009/HyliaSerifBeta-Regular.otf) format("OpenType") ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0:#FC202E;
+    --cor1:#DD5E3B;
+    --cor2:#BE9B47;
+    --cor3:#DCC992;
+    --cor4:#FAF7DC;
+    --font-titulo: "triforce";
+    --font-titulo2:"zelda";
+    --font:"Poppins";
+}
+body{
+    background-color: var(--cor3);
+    
+}
+header{
+    background-color: var(--cor2);
+    text-align: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);
+    margin-bottom: 1px;
+    font-family: 'Poppins', sans-serif;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+header > h1{
+    font-family: var(--font-titulo2);
+    font-size: 3em;
+    font-weight: normal;
+    color:black;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.281);
+    padding: 10px;
+}
+header > p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+article{
+    background-color: var(--cor4);
+    min-width: 300px;
+    max-width: auto;
+    margin: 0px 3vw 1px 3vw;
+    padding: 41px;
+    box-shadow: 0px 0px 10px rgb(87, 86, 86);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /*
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.322);
+    border-bottom-left-radius: 18 px;
+    border-bottom-right-radius: 18px;*/
+}
+article > h2{
+    font-family: var(--font-titulo2);
+    font-weight: normal;
+    font-size: 30px;
+    background-image: linear-gradient(to right, transparent, var(--cor2), transparent);
+    text-align: center;
+}
+article > p{
+    font-family: var(--font);
+    font-size: 18px;
+    text-indent: 10px;
+    padding: 5px;
+}
+article > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 40%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
+    border-radius: 2%;
+}
+article a {
+    text-decoration: none;
+    color: black;
+}
+article a:hover{
+    color: black;
+    text-decoration: underline;
+}
+footer{
+    background-color: var(--cor2);
+    text-align: center;
+    margin-right: 5em;
+    margin-left: 5em;
+    margin-top: -1px;
+    margin-bottom: 30px;
+    padding: auto;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.322);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+}
+footer > a{
+    text-decoration: none;
+    color: black;
+}
+a:hover  {
+    color: var(--cor1);
+    text-decoration: underline;
+}
